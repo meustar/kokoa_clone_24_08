@@ -1,24 +1,66 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
+    <title>Kokoa Challenge</title>
     <meta charset="UTF-8" />
-    <meta name="description" content="귀여운 강아지를 위한 나만의 웹 사이트" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello_Puppy</title>
-    <link
-      rel="shortcut icon"
-      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpzDh6eO5JkPK2yrNUiqvhWI2j7ODZfs1tA&s"
-    />
+    <meta name="viewport" content="width=device-width" />
   </head>
   <body>
-    <!-- 2.10 Semantic HTML -->
-    <header>
-      <h1>The KGB Times</h1>
-    </header>
-    <main>
-      <p>나는 이번 챌린지를 꼭 완주 할 것이다.</p>
-    </main>
-    <footer>2024 K.G.B</footer>
+    <h1>Create An Account</h1>
+
+    <form action="">
+      <div>
+        <label for="First">First name</label>
+        <input id="First" type="text" required placeholder="First name" />
+      </div>
+      <div>
+        <label for="Last">Last name</label>
+        <input id="Last" type="text" required placeholder="Last name" />
+      </div>
+      <div>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" required placeholder="Email" />
+      </div>
+      <div>
+        <label for="Username">Username</label>
+        <input id="Username" type="text" required placeholder="Username" />
+      </div>
+      <div>
+        <label for="Pw">Password</label>
+        <input
+          id="Pw"
+          type="password"
+          required
+          placeholder="Password"
+          minlength="10"
+        />
+      </div>
+      <div>
+        <label for="Birth">Birth date</label>
+        <input id="Birth" type="date" required />
+      </div>
+      <div>
+        <label for="range">How happy are you?</label>
+        <input id="range" type="range" min="0" max="100" list="tickmarks" />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="color">What is your fav. color?</label>
+        <input id="color" type="color" />
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
