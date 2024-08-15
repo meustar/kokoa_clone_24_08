@@ -10,13 +10,51 @@
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpzDh6eO5JkPK2yrNUiqvhWI2j7ODZfs1tA&s">
 </head>
 <body>
+    <!-- 2.9 More Tags and IDs -->
    <form action="">
-    <input type="file" accept=".jpg">
-    <input required placeholder="Name" type="text">
-    <input required placeholder="Last Name" type="text">
-    <input required placeholder="UserName" type="text">
-    <input required placeholder="Password" minlength="10" type="password">
-    <input type="submit" value="Create Account">
+    <label for="profile">Profile Photo</label>
+    <input id="profile" type="file" accept=".jpg">
+    <input type="submit" value="사진 제출">
    </form>
+
+   <form action="">
+    <label for="first-Name">first-Name</label>
+    <input id="first-Name" required placeholder="Name" type="text">
+    <input type="submit" value="이름 제출">
+   </form>
+
+   <form action="">
+    <label for="website">website</label>
+    <input id="website" required placeholder="website" type="url">
+    <input type="submit" value="링크 제출">
+   </form>
+
+   <form action="">
+    <label for="email">email</label>
+    <input id="email" required placeholder="email" type="email">
+    <input type="submit" value="이메일 제출">
+   </form>
+
+   <form action="">
+    <label for="range">range</label>
+    <input id="range" type="range">
+    <input type="submit" value="제출">
+   </form>
+
+   <form action="">
+    <label for="number">number</label>
+    <input id="number" type="number">
+    <input type="submit" value="제출">
+   </form>
+
+   <form action="">
+    <label for="date">date</label>
+    <input id="date" type="date">
+    <input type="submit" value="제출">
+   </form>
+
+
+   
+   
 </body>
 </html>
