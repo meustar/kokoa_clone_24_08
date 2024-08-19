@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        background-color: yellowgreen;
+        margin: 0 10px;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: underline;
+      }
+      p span {
+        color: white;
+        text-decoration: none;
+      }
+      div > span {
+        text-decoration: underline;
+      }
+      span + p {
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum provident
+        quaerat asperiores dignissimos tempora molestias sit dolorem doloremque
+        nulla dolores perspiciatis architecto, repellendus laboriosam ad eos.
+        Asperiores architecto aspernatur porro! <span>inside</span>
+      </p>
+    </div>
+  </body>
+</html>
